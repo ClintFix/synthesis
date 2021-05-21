@@ -2,9 +2,17 @@
     color: white;
     background-color: transparent;
     font-size: 16px;
+    display: block;
 }
 
 .container {
+    background-color: transparent;
     max-width: 940px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container h1 {
+    z-index: 900;
 }
