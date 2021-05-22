@@ -47,7 +47,7 @@ export default function OriginStory() {
                     Cheers!
                     <br />
                     <br />
-                    Clint Fix, A guy that can&apos;t wait to have a title next to his name at Synthesis
+                    Clint Fix, Enthusiastic Synthesis Engineering Prospect
                 </p>
             </div>
         </div>

@@ -11,4 +11,19 @@
     -webkit-transform: translate(-10%,43px) rotate(2.2deg);
     -ms-transform: translate(-10%,43px) rotate(2.2deg);
     transform: translate(-10%,43px) rotate(2.2deg);
-  }
+}
+
+.diagonalTwo {
+  overflow: auto;
+  width: 120%;
+  max-height: 200px;
+  max-width: 100000px;
+  min-height: 150px;
+  margin-top: -59px;
+  padding-top: 1px;
+  background-color: #fff;
+  -webkit-transform: translate(-33px,-43px) rotate(-2.2deg);
+  -ms-transform: translate(-33px,-43px) rotate(-2.2deg);
+  transform: translate(-33px,-43px) rotate(-2.2deg);
+  color: #fdfdfd;
+}

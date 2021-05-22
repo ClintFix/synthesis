@@ -14,6 +14,9 @@ export default function Home() {
         <div className={styles.diagonalOne}>hi</div>
       </div>
       <OriginStory />
+      <div style={{height: '100px', overflow: 'hidden'}}>
+        <div className={styles.diagonalTwo}>hi</div>
+      </div>
     </>
   );
 }
