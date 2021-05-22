@@ -1,15 +1,15 @@
 .nav {
-    color: white;
-    background-color: transparent;
+    background: transparent;
+    color: #fff;
     font-size: 16px;
-    display: block;
     position: relative;
-    z-index: 1000;
+    z-index: 2;
 }
 
 .container {
     background-color: transparent;
     max-width: 940px;
     margin: 0 auto;
+    z-index: 2;
 }
 
