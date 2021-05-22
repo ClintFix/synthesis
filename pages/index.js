@@ -6,9 +6,12 @@ import Hero from '../components/Hero';
 
 export default function Home() {
   return (
-    <div className={styles.main}>
+    <>
       <Header />
       <Hero />
-    </div>
+      <div style={{height: '100px'}}>
+        <div className={styles.diagonalOne}>hi</div>
+      </div>
+    </>
   );
 }

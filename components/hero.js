@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import BackgroundVideo from './BackgroundVideo';
 import styles from './hero.module.css';
 
@@ -16,6 +17,9 @@ export default function Hero() {
                     <br />
                     that is ready to build the future with Synthesis.
                 </div>
+                <Link href="/">
+                    <a className={styles.signUpButton}>Hire Clint</a>
+                </Link>
             </div>
         </div>
     );

@@ -1,3 +1,14 @@
-.main {
-  background-color: transparent;
-}
+.diagonalOne {
+    display: block;
+    overflow: visible;
+    width: 120%;
+    height: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #fff;
+    -webkit-transform: translate(-10%,43px) rotate(2.2deg);
+    -ms-transform: translate(-10%,43px) rotate(2.2deg);
+    transform: translate(-10%,43px) rotate(2.2deg);
+  }
