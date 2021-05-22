@@ -19,6 +19,8 @@ a {
 
 video {
   height: auto;
-  vertical-align: middle;
-  width: 100%;
+  vertical-align: top;
+  width: 60%;
+  float: right;
+  margin: -80px;
 }
