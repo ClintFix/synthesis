@@ -6,6 +6,11 @@ import Hero from '../components/Hero';
 import OriginStory from '../components/OriginStory';
 import Tweets from '../components/Tweets';
 
+// export async function getServerSideProps(context) {
+//   const res = await fetch()
+
+// }
+
 export default function Home() {
   return (
     <>
