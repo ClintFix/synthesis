@@ -15,7 +15,7 @@
 
 .interestedContainer {
     margin: 0 auto;
-    width: 40%;
+    width: 75%;
     display: flex;
     justify-content: space-evenly;
 }
@@ -49,4 +49,11 @@
 .hireButton:hover {
     background-color: rgba(255,255,255,.3);
     color: #fff;
+}
+
+.footerLinks {
+    margin: 50px auto 0;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
 }
