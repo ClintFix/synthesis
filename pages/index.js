@@ -6,8 +6,8 @@ import Hero from '../components/Hero';
 import OriginStory from '../components/OriginStory';
 import Tweets from '../components/Tweets';
 
-export async function getServerSideProps(context) {
-  const res = await fetch("https://api.twitter.com/2/tweets/search/recent?query=@chrismanfrank&max_results=15&tweet.fields=in_reply_to_user_id,public_metrics&user.fields=url", {
+export async function getServerSideProps() {
+  const res = await fetch("https://api.twitter.com/2/tweets/search/recent?query=from:chrismanfrank&max_results=15&tweet.fields=in_reply_to_user_id,public_metrics&user.fields=url", {
     headers: {
       Authorization: 'Bearer AAAAAAAAAAAAAAAAAAAAAIaKPwEAAAAAZu5h5AGr1ZJSWo1V6yhjSbYyl5Q%3DV4f1Mtk1ee3oJ9UCSUCQnwNAvwoLmu1fQzm7xajRM7YXLra7sb'
     }
@@ -17,7 +17,7 @@ export async function getServerSideProps(context) {
     props: {
       tweets
     }
-  }
+  };
 }
 
 
@@ -34,6 +34,9 @@ export default function Home({tweets}) {
         <div className={styles.diagonalTwo}>hi</div>
       </div>
       <Tweets tweets={tweets}/>
+      <div style={{height: '100px', overflow: 'hidden'}}>
+        <div className={styles.diagonalOne}>hi</div>
+      </div>
     </>
   );
 }

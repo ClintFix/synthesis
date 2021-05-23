@@ -7,11 +7,11 @@ export default function Tweets({tweets}) {
             return tweet;
         }
     });
-    console.log(filteredTweets);
+
     return (
         <div className={styles.tweets}>
             <div className={styles.tweetsContainer}>
-                <h1 className={styles.headingOne}>Latest Chrisman Tweets</h1>
+                <h1 className={styles.headingOne}>Latest Chrisman Tweets (and RTs)</h1>
                 <h4 className={styles.headingFour}>( Fetched with getServerSideProps )</h4>
                 <div>
                     {
