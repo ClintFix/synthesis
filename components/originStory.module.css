@@ -23,7 +23,6 @@
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
-    display: flex;
     margin-right: auto;
     margin-left: auto;
     padding-top: 24px;
@@ -42,4 +41,12 @@
     font-size: 1.2em;
     font-weight: 300;
     text-transform: none;
+}
+
+.originText a {
+    text-decoration: underline;
+}
+
+.originText a:hover {
+    color: gray;
 }
