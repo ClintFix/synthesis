@@ -1,0 +1,26 @@
+.tweets {
+    background-color: black;
+    color: white;
+}
+
+.tweetsContainer {
+    max-width: 940px;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.headingOne {
+    color: white;
+    font-size: 2.4em;
+    text-align: center;
+    line-height: 24px;
+}
+
+.headingFour {
+    color: white;
+    font-size: 1.4em;
+    text-align: center;
+    line-height: 18px;
+}
+

@@ -6,10 +6,10 @@ export default function OriginStory() {
             <div className={styles.originContainer}>
                 <h1 className={styles.headingOne}>Origin Story</h1>
                 <p className={styles.originText}>
-                    Match quality, the term economists use for the degree of fit between and individual&apos;s abilities and interests and the work they do, is something I&apos;ve been hunting for since high school. The search hasn&apos;t been without its twists, turns, and upsets, but without the journey I wouldn&apos;t be where I am today: with a strong match *and* breadth of experience and knowledge. 
+                    Match quality, the term economists use for the degree of fit between and individual&apos;s abilities and interests and the work they do, is something I&apos;ve been hunting for since high school. The search hasn&apos;t been without its twists, turns, and upsets, but without the journey I wouldn&apos;t be where I am today: a career path with a strong match *and* breadth of experience and knowledge. 
                     <br />
                     <br />
-                    Though my career began as a Mechanical Engineer and I had the ability to succeed in the field, a recurring pattern emerged in my early career: I kept getting distracted by software and various problems that could be solved. My interests obviously laid outside of mechanical engineering. 
+                    Through my career began as a Mechanical Engineer and I had the ability to succeed in the field, a recurring pattern emerged in my early career: I kept getting distracted by software and various problems that could be solved. My interests obviously laid outside of mechanical engineering. 
                     <br />
                     <br />
                     In late 2020, sitting in my home office feeling a bit too sorry for myself as I scrolled Twitter, I came across a tweet by Austen Allred, the founder of Lambda School. I had been following Lambda for some time — both because I love the startup world and follow many YC companies and because I love the alternative education space. 
