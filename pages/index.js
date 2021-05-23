@@ -9,7 +9,7 @@ import Footer from '../components/Footer';
 export async function getServerSideProps() {
   const res = await fetch("https://api.twitter.com/2/tweets/search/recent?query=from:chrismanfrank&max_results=15&tweet.fields=in_reply_to_user_id,public_metrics&user.fields=url", {
     headers: {
-      Authorization: 'Bearer AAAAAAAAAAAAAAAAAAAAAIaKPwEAAAAAZu5h5AGr1ZJSWo1V6yhjSbYyl5Q%3DV4f1Mtk1ee3oJ9UCSUCQnwNAvwoLmu1fQzm7xajRM7YXLra7sb'
+      Authorization: `Bearer ${process.env.TWITTER_BEARER}`
     }
   });
   const tweets = await res.json();
@@ -19,7 +19,6 @@ export async function getServerSideProps() {
     }
   };
 }
-
 
 export default function Home({tweets}) {
   return (
