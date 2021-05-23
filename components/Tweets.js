@@ -1,7 +1,8 @@
 import { TwitterTweetEmbed } from 'react-twitter-embed';
 import styles from './tweets.module.css';
 
-export default function Tweets() {
+export default function Tweets({tweets}) {
+    console.log(tweets.data);
     return (
         <div className={styles.tweets}>
             <div className={styles.tweetsContainer}>
