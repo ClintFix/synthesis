@@ -18,7 +18,7 @@ export default function Tweets({tweets}) {
                         filteredTweets.map(tweet => {
                             return <TwitterTweetEmbed key={tweet.id} tweetId={tweet.id} options={{
                                 width: '310' 
-                              }}/>;
+                            }}/>;
                         })
                     }
                 </div>
