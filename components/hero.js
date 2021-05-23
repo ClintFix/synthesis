@@ -17,7 +17,7 @@ export default function Hero() {
                     <br />
                     that is ready to build the future with Synthesis.
                 </div>
-                <Link href="/">
+                <Link href="/hire-clint">
                     <a className={styles.signUpButton}>Hire Clint</a>
                 </Link>
             </div>

@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import styles from './footer.module.css';
 
 export default function Footer() {
@@ -7,7 +8,9 @@ export default function Footer() {
             <div className={styles.footerContainer}>
                 <div className={styles.interestedContainer}>
                     <div className={styles.interested}>Interested?</div>
-                    <div className={styles.hireButton}>Hire Clint</div>
+                    <Link href='/hire-clint' >
+                        <a className={styles.hireButton}>Hire Clint</a>
+                    </Link>
                 </div>
                 <div className={styles.footerLinks}>
                     <Image

@@ -57,3 +57,7 @@
     display: flex;
     justify-content: space-between;
 }
+
+.footerLinks a:hover {
+    text-decoration: underline;
+}
