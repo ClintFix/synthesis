@@ -7,7 +7,7 @@ import OriginStory from '../components/OriginStory';
 import Tweets from '../components/Tweets';
 
 export async function getServerSideProps(context) {
-  const res = await fetch("https://api.twitter.com/2/tweets/search/recent?query=@synthesischool&max_results=50&tweet.fields=in_reply_to_user_id,public_metrics&user.fields=url", {
+  const res = await fetch("https://api.twitter.com/2/tweets/search/recent?query=@chrismanfrank&max_results=15&tweet.fields=in_reply_to_user_id,public_metrics&user.fields=url", {
     headers: {
       Authorization: 'Bearer AAAAAAAAAAAAAAAAAAAAAIaKPwEAAAAAZu5h5AGr1ZJSWo1V6yhjSbYyl5Q%3DV4f1Mtk1ee3oJ9UCSUCQnwNAvwoLmu1fQzm7xajRM7YXLra7sb'
     }

@@ -11,13 +11,13 @@ export default function Tweets({tweets}) {
     return (
         <div className={styles.tweets}>
             <div className={styles.tweetsContainer}>
-                <h1 className={styles.headingOne}>Latest @Synthesis Tweets</h1>
-                <h4 className={styles.headingFour}>( Rendered with getServerSideProps )</h4>
-                <div className={styles.tweetFlex}>
+                <h1 className={styles.headingOne}>Latest Chrisman Tweets</h1>
+                <h4 className={styles.headingFour}>( Fetched with getServerSideProps )</h4>
+                <div>
                     {
                         filteredTweets.map(tweet => {
                             return <TwitterTweetEmbed key={tweet.id} tweetId={tweet.id} options={{
-                                width: '310' 
+                                align: "center"
                             }}/>;
                         })
                     }

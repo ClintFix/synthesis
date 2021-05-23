@@ -1,6 +1,5 @@
 .tweets {
     background-color: black;
-    height: 100%;
     color: white;
 }
 
@@ -25,8 +24,3 @@
     line-height: 18px;
 }
 
-.tweetFlex {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
