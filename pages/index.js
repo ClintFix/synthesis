@@ -5,6 +5,7 @@ import Header from '../components/Header';
 import Hero from '../components/Hero';
 import OriginStory from '../components/OriginStory';
 import Tweets from '../components/Tweets';
+import Skills from '../components/Skills';
 
 export async function getServerSideProps() {
   const res = await fetch("https://api.twitter.com/2/tweets/search/recent?query=from:chrismanfrank&max_results=15&tweet.fields=in_reply_to_user_id,public_metrics&user.fields=url", {
@@ -37,6 +38,7 @@ export default function Home({tweets}) {
       <div style={{height: '100px', overflow: 'hidden'}}>
         <div className={styles.diagonalOne}>hi</div>
       </div>
+      <Skills />
     </>
   );
 }
