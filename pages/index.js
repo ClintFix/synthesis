@@ -1,11 +1,11 @@
 import styles from '../styles/Home.module.css';
 import Head from 'next/head';
-import Header from '../components/Header';
-import Hero from '../components/Hero';
-import OriginStory from '../components/OriginStory';
-import Tweets from '../components/Tweets';
-import Skills from '../components/Skills';
-import Footer from '../components/Footer';
+import Header from '../components/header';
+import Hero from '../components/hero';
+import OriginStory from '../components/originStory';
+import Tweets from '../components/sweets';
+import Skills from '../components/skills';
+import Footer from '../components/footer';
 
 export async function getServerSideProps() {
   const res = await fetch("https://api.twitter.com/2/tweets/search/recent?query=from:chrismanfrank&max_results=15&tweet.fields=in_reply_to_user_id,public_metrics&user.fields=url", {

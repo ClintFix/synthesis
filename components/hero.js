@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import BackgroundVideo from './BackgroundVideo';
+import BackgroundVideo from './backgroundVideo';
 import styles from './hero.module.css';
 
 export default function Hero() {
