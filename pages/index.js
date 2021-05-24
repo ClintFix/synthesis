@@ -1,15 +1,16 @@
-import Head from 'next/head';
-import Image from 'next/image';
 import styles from '../styles/Home.module.css';
+import Head from 'next/head';
 import Header from '../components/Header';
 import Hero from '../components/Hero';
 import OriginStory from '../components/OriginStory';
 import Tweets from '../components/Tweets';
+import Skills from '../components/Skills';
+import Footer from '../components/Footer';
 
 export async function getServerSideProps() {
   const res = await fetch("https://api.twitter.com/2/tweets/search/recent?query=from:chrismanfrank&max_results=15&tweet.fields=in_reply_to_user_id,public_metrics&user.fields=url", {
     headers: {
-      Authorization: 'Bearer AAAAAAAAAAAAAAAAAAAAAIaKPwEAAAAAZu5h5AGr1ZJSWo1V6yhjSbYyl5Q%3DV4f1Mtk1ee3oJ9UCSUCQnwNAvwoLmu1fQzm7xajRM7YXLra7sb'
+      Authorization: `Bearer ${process.env.TWITTER_BEARER}`
     }
   });
   const tweets = await res.json();
@@ -20,10 +21,13 @@ export async function getServerSideProps() {
   };
 }
 
-
 export default function Home({tweets}) {
   return (
     <>
+      <Head>
+        <title>Clint Fix | Synthesis School</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <Header />
       <Hero />
       <div style={{height: '100px', overflow: 'hidden'}}>
@@ -37,6 +41,8 @@ export default function Home({tweets}) {
       <div style={{height: '100px', overflow: 'hidden'}}>
         <div className={styles.diagonalOne}>hi</div>
       </div>
+      <Skills />
+      <Footer />
     </>
   );
 }

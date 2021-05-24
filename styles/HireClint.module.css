@@ -1,28 +1,32 @@
-.origin {
-    background-color: white;
+.hire {
+    background-color: black;
     height: 100%;
-    color: black;
+    color: white;
 }
 
-.originContainer {
+.hireContainer {
     max-width: 940px;
     margin: 0 auto;
     padding-top: 50px;
     padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .headingOne {
-    color: #000;
+    color: white;
     font-size: 2.4em;
     text-align: center;
     line-height: 44px;
 }
 
-.originText {
+.hireText {
     position: static;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
+    display: flex;
     margin-right: auto;
     margin-left: auto;
     padding-top: 24px;
@@ -37,16 +41,22 @@
     -ms-flex-align: center;
     align-items: center;
     font-family: Labilgrotesktrial,sans-serif;
-    color: #000;
+    color: white;
     font-size: 1.2em;
     font-weight: 300;
     text-transform: none;
 }
 
-.originText a {
-    text-decoration: underline;
-}
-
-.originText a:hover {
-    color: gray;
+.backButton {
+    margin-top: 3%;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #fff;
+    background-color: #fff;
+    color: #000;
+    display: inline-block;
+    padding: 9px 15px;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
 }

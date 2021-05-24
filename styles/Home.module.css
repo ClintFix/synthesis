@@ -1,6 +1,6 @@
 .diagonalOne {
     display: block;
-    overflow: visible;
+    overflow: hidden;
     width: 120%;
     height: 100%;
     margin-top: 0;
@@ -14,7 +14,7 @@
 }
 
 .diagonalTwo {
-  overflow: auto;
+  overflow: hidden;
   width: 120%;
   max-height: 200px;
   max-width: 100000px;
