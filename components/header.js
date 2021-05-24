@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import styles from './header.module.css';
 
-export default function Navigation() {
+export default function Header() {
     return (
         <div className={styles.nav}>
             <div className={styles.container}>
