@@ -1,4 +1,5 @@
 import styles from '../styles/Home.module.css';
+import Head from 'next/head';
 import Header from '../components/Header';
 import Hero from '../components/Hero';
 import OriginStory from '../components/OriginStory';
@@ -23,6 +24,10 @@ export async function getServerSideProps() {
 export default function Home({tweets}) {
   return (
     <>
+      <Head>
+        <title>Clint Fix | Synthesis School</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <Header />
       <Hero />
       <div style={{height: '100px', overflow: 'hidden'}}>

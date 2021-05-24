@@ -30,13 +30,13 @@ export default function OriginStory() {
                     Looking forward, <span style={{fontWeight: '600'}}>I have one primary goal: becoming a valuable engineering team member with Synthesis.</span> I built this site using Next.js to learn the framework and show that I have the ability to learn quickly.
                     <br />
                     <br />
-                    But success goes beyond mere skills and ability. A loyal teammate requires match quality -- a teammate that is also immensely interested in the company&apos;s mission.
+                    But success goes beyond mere skills and ability. A loyal teammate requires match quality — a teammate that is also immensely interested in the company&apos;s mission.
                     <br />
                     <br />
                     Since long before I had kids, I envisioned taking them through a different educational system —
                     <br />
                     <br />
-                    One that would teach them <span style={{fontWeight: '600'}}>how</span> to think rather than what to think. 
+                    One that would teach them <span style={{fontWeight: '600'}}>how to think</span> rather than what to think. 
                     <br />
                     One that would inspire them to grow and learn. 
                     <br />

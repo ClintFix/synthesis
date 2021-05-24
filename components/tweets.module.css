@@ -24,3 +24,8 @@
     line-height: 18px;
 }
 
+@media (max-width: 640px){
+    .headingOne {
+        line-height: 40px;
+    }
+}

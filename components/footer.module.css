@@ -61,3 +61,13 @@
 .footerLinks a:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 640px){
+    .footerLinks {
+        padding-bottom: 50px;
+    }
+    .interestedContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+}
